@@ -1,0 +1,216 @@
+* {
+    font: 13px Georgia, Times, serif;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: 800;
+    padding: 10px;
+    background-color: #a8daf9;
+    color: white;
+}
+
+input, textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+th {
+    text-align: left;
+    font-weight: 800;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: 800;
+}
+#top td td select,
+#top td td button {
+    font-size: 9px;
+}
+
+#top {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    background-color: #eee;
+}
+
+#content {
+    position: fixed;
+    left: 0;
+    top: 90px;
+    width: 100%;
+    bottom: 0;
+    overflow: auto;
+}
+
+#top tr {
+    vertical-align: top;
+}
+#top td, #top th {
+    padding: 2px;
+}
+
+#top_search {
+    width: 300px;
+}
+
+#top span {
+    padding: 10px 0 10px 0;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+#content textarea {
+    width: 100%;
+}
+
+#content .doc > div {
+    padding: 5px;
+}
+
+#content .t_num {
+    background-color: #ace7ff;
+    color: white;
+    font-size: 14px;
+
+}
+
+.c_form .doc {
+    position: relative;
+    margin: 20px;
+    height: 600px;
+    border: 1px solid #ace7ff;
+}
+
+.c_form .t_num {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+}
+
+.c_form .t_cont {
+    position: absolute;
+    left: 0;
+    top: 35px;
+    width: 70%;
+}
+
+.c_form .t_date {
+    position: absolute;
+    left: 70%;
+    top: 35px;
+    width: 15%;
+}
+
+.c_form .t_place {
+    position: absolute;
+    left: 85%;
+    top: 35px;
+    width: 15%;
+}
+
+.c_form .t_pet {
+    position: absolute;
+    left: 0;
+    top: 95px;
+    width: 50%;
+}
+
+.c_form .t_int {
+    position: absolute;
+    left: 50%;
+    top: 95px;
+    width: 50%;
+}
+
+.c_form .t_text {
+    position: absolute;
+    left: 0;
+    top: 225px;
+    width: 100%;
+}
+
+.c_form .t_pet textarea,
+.c_form .t_int textarea {
+    height: 100px;
+}
+
+.c_form .t_text textarea {
+    height: 360px;
+}
+
+
+
+.c_tabx .doc {
+    position: relative;
+    margin: 0 5px;
+    height: 80px;
+    border: 1px solid #ace7ff;
+}
+
+.c_tabx .t_num {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5%;
+}
+
+.c_tabx .t_cont {
+    position: absolute;
+    top: 0;
+    left: 65%;
+    width: 35%;
+}
+
+.c_tabx .t_date {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    width: 10%;
+}
+
+.c_tabx .t_place {
+    position: absolute;
+    left: 15%;
+    top: 0;
+    width: 10%;
+}
+
+.c_tabx .t_pet {
+    position: absolute;
+    left: 25%;
+    top: 0;
+    width: 20%;
+}
+
+.c_tabx .t_int {
+    position: absolute;
+    left: 45%;
+    top: 0;
+    width: 20%;
+}
+
+.c_tabx .t_text {
+    display: none;
+}
+
+.c_tabx textarea {
+    height: 70px;
+    max-height: 70px;
+    min-height: 70px;
+}
+.c_tabx label {
+    display: none;
+}
